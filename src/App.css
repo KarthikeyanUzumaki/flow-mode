@@ -1,0 +1,36 @@
+.app-container {
+  background-color: #1e293b; /* A dark slate color */
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.main-heading {
+  font-size: 2.25rem; /* 36px */
+  font-weight: bold;
+}
+.app-container {
+  /* This makes sure content doesn't go behind the nav bar */
+  padding-bottom: 80px; 
+}
+
+.bottom-nav {
+  background-color: #334155; /* A darker slate color */
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.125rem; /* 18px */
+}
